@@ -1,0 +1,11 @@
+hi today we learn about creating user case for git cherrypicking. [first commit]
+in this we will able to how we choose a selective file from one ranch and add it to our another branch[second commit]
+cherrypicking is a concept where you can select specific file  from one branch and merge into your branch.[third commit]
+dummy line change 2 on feature branch. [second commit on feature branch]
+
+<<<<<<< HEAD
+=======
+dummy line change 1 on feature branch.[first commit on feature branch]
+dummy line change 2 on feature branch. [second commit on feature branch]
+
+>>>>>>> fe3fa4c (2nd commit on feature branch)
